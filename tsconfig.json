@@ -1,0 +1,11 @@
+{
+    "files": [
+        "src/main.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "target": "es6"
+    }
+}

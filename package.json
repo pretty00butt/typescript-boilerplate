@@ -1,0 +1,24 @@
+{
+    "name": "typescript-boilerplate",
+    "version": "0.0.1",
+    "description": "Typescript Boilerplate",
+    "main": "dist/index.js",
+    "author": "Hoony Change <the6thm0nth@outlook.com>",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "dotenv": "^5.0.1",
+        "gulp": "^3.9.1",
+        "gulp-typescript": "^4.0.2",
+        "typescript": "^2.8.3"
+    },
+    "scripts": {
+        "start": "gulp",
+        "build": "gulp build"
+    },
+    "devDependencies": {
+        "del": "^3.0.0",
+        "gulp-nodemon": "^2.2.1",
+        "gulp-sourcemaps": "^2.6.4"
+    }
+}
